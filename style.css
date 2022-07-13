@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(128, 92, 49);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.drop_down_menu.active,
+.drop_down_menu {
+  margin-top: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 10rem;
+  background-color: rgb(64, 116, 98);
+  padding: 1rem;
+  opacity: 1;
+  transition: all 300ms linear;
+  border-radius: 1rem;
+}
+
+.drop_down_menu > span {
+  font-size: 1.5rem;
+  margin: 1rem;
+  color: aliceblue;
+}
+
+.drop_down_menu {
+  opacity: 0;
+}
